@@ -1,9 +1,9 @@
 import './header.styles.css';
 
-function Header() {
+function Header({ title }) {
 	return (
 		<header>
-			<h1>Groceries list</h1>
+			<h1>{title}</h1>
 		</header>
 	);
 }
